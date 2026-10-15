@@ -1,0 +1,10 @@
+/* McKesson product-design application variant; preserves the source portfolio structure. */
+.mck-fit{padding:76px 0;background:#f4f7f8;color:#182b34}
+.mck-fit h2{font-size:clamp(2rem,4vw,3.4rem);letter-spacing:-.045em;line-height:1.12;max-width:790px;margin:18px 0 32px}
+.mck-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.mck-grid article{background:white;border:1px solid #dbe5e8;border-radius:16px;padding:28px}
+.mck-grid article span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#42717c;font-weight:700}
+.mck-grid h3{font-size:1.3rem;line-height:1.2;margin:16px 0 12px}
+.mck-grid p{font-size:15px;line-height:1.7;color:#52636a;margin:0}
+@media(max-width:740px){.mck-fit{padding:52px 0}.mck-grid{grid-template-columns:1fr}}
+.mck-context{font-size:14px;font-weight:650;letter-spacing:.025em;color:#407483;margin:12px 0 24px}
